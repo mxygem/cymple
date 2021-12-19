@@ -1,0 +1,14 @@
+{
+  "name": "cymple",
+  "description": "A Cypress example",
+  "version": "0.0.1",
+  "author": "mxygem",
+  "license": "MIT",
+  "scripts": {
+    "cy:run": "cypress run --headless --quiet",
+    "cy:open": "cypress open"
+  },
+  "dependencies": {
+    "cypress": "^9.1.1"
+  }
+}

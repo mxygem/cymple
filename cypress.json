@@ -1,0 +1,11 @@
+{
+    "baseUrl": "http://127.0.0.1:3000",
+    "video": false,
+    "chromeWebSecurity": false,
+    "defaultCommandTimeout": 30000,
+    "taskTimeout": 80000,
+    "requestTimeout": 120000,
+    "responseTimeout": 120000,
+    "viewportWidth": 1280,
+    "viewportHeight": 1024
+}

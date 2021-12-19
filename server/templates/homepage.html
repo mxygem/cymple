@@ -1,0 +1,19 @@
+<!DOCTYPE html>
+<html>
+<div>
+    <h1>Employees</h1>
+    {{block "content" .}}
+    <div>
+        <ul data-cy="employees" type="none">
+            {{- range $i, $e := . }}
+            <li data-cy="employee-{{ $e.ID }}">
+                <div></div>
+                <p>ID: <span data-cy="id">{{ $e.ID }}</span> Gender: <span data-cy="gender">{{ $e.Gender }}</span></p>
+            </li>
+            {{- end }}
+        </ul>
+    </div>
+    {{end}}
+</div>
+
+</html>
